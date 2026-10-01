@@ -1,15 +1,13 @@
 .hero {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 188px 0;
+  padding: 72px 0;
   background-color: #2e2f42;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     image-set(
-      url('../images/people-office.jpg') 1x,
-      url('../images/people-office-2x.jpg') 2x
+      url('../images/people-office-mobile.jpg') 1x,
+      url('../images/people-office-mobile-2x.jpg') 2x
     );
   background-position: center;
   background-size: cover;
@@ -18,11 +16,11 @@
 }
 
 .hero-title {
-  max-width: 496px;
-  margin: 0 auto 48px;
+  max-width: 216px;
+  margin: 0 auto 40px;
   color: #ffffff;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
@@ -47,4 +45,41 @@
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 112px 0;
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      image-set(
+        url('../images/people-office-tablet.jpg') 1x,
+        url('../images/people-office-tablet-2x.jpg') 2x
+      );
+  }
+
+  .hero-title {
+    max-width: 496px;
+    margin-bottom: 36px;
+    font-size: 48px;
+    line-height: 1.08;
+  }
+}
+
+@media (min-width: 1158px) {
+  .hero {
+    padding: 188px 0;
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      image-set(
+        url('../images/people-office-desktop.jpg') 1x,
+        url('../images/people-office-desktop-2x.jpg') 2x
+      );
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
 }

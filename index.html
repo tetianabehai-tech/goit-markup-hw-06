@@ -46,8 +46,15 @@
             </li>
           </ul>
         </address>
-        <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="mobile-menu">
-          <span class="menu-icon" aria-hidden="true"></span>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-icon" width="24" height="24" aria-hidden="true">
+            <use href="./images/icons.svg#menu-open"></use>
+          </svg>
         </button>
       </div>
     </header>
@@ -138,7 +145,12 @@
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-card">
-              <img src="./images/team-1.jpg" srcset="./images/team-1.jpg 1x, ./images/team-1-2x.jpg 2x" alt="Mark Guerrero" width="264" />
+              <img
+                src="./images/team-1.jpg"
+                srcset="./images/team-1.jpg 1x, ./images/team-1-2x.jpg 2x"
+                alt="Mark Guerrero"
+                width="264"
+              />
               <div class="team-info">
                 <h3 class="team-name">Mark Guerrero</h3>
                 <p class="team-role">Product Designer</p>
@@ -185,7 +197,12 @@
               </div>
             </li>
             <li class="team-card">
-              <img src="./images/team-2.jpg" srcset="./images/team-2.jpg 1x, ./images/team-2-2x.jpg 2x" alt="Tom Ford" width="264" />
+              <img
+                src="./images/team-2.jpg"
+                srcset="./images/team-2.jpg 1x, ./images/team-2-2x.jpg 2x"
+                alt="Tom Ford"
+                width="264"
+              />
               <div class="team-info">
                 <h3 class="team-name">Tom Ford</h3>
                 <p class="team-role">Frontend Developer</p>
@@ -232,7 +249,12 @@
               </div>
             </li>
             <li class="team-card">
-              <img src="./images/team-3.jpg" srcset="./images/team-3.jpg 1x, ./images/team-3-2x.jpg 2x" alt="Camila Garcia" width="264" />
+              <img
+                src="./images/team-3.jpg"
+                srcset="./images/team-3.jpg 1x, ./images/team-3-2x.jpg 2x"
+                alt="Camila Garcia"
+                width="264"
+              />
               <div class="team-info">
                 <h3 class="team-name">Camila Garcia</h3>
                 <p class="team-role">Marketing</p>
@@ -279,7 +301,12 @@
               </div>
             </li>
             <li class="team-card">
-              <img src="./images/team-4.jpg" srcset="./images/team-4.jpg 1x, ./images/team-4-2x.jpg 2x" alt="Daniel Wilson" width="264" />
+              <img
+                src="./images/team-4.jpg"
+                srcset="./images/team-4.jpg 1x, ./images/team-4-2x.jpg 2x"
+                alt="Daniel Wilson"
+                width="264"
+              />
               <div class="team-info">
                 <h3 class="team-name">Daniel Wilson</h3>
                 <p class="team-role">UI Designer</p>
@@ -336,7 +363,10 @@
               <div class="portfolio-image-box">
                 <img
                   src="./images/portfolio-1.jpg"
-                  srcset="./images/portfolio-1.jpg 1x, ./images/portfolio-1-2x.jpg 2x"
+                  srcset="
+                    ./images/portfolio-1.jpg    1x,
+                    ./images/portfolio-1-2x.jpg 2x
+                  "
                   alt="Banking application interface"
                   width="360"
                 />
@@ -355,7 +385,10 @@
               <div class="portfolio-image-box">
                 <img
                   src="./images/portfolio-2.jpg"
-                  srcset="./images/portfolio-2.jpg 1x, ./images/portfolio-2-2x.jpg 2x"
+                  srcset="
+                    ./images/portfolio-2.jpg    1x,
+                    ./images/portfolio-2-2x.jpg 2x
+                  "
                   alt="Cashless payment with a smartphone"
                   width="360"
                 />
@@ -374,7 +407,10 @@
               <div class="portfolio-image-box">
                 <img
                   src="./images/portfolio-3.jpg"
-                  srcset="./images/portfolio-3.jpg 1x, ./images/portfolio-3-2x.jpg 2x"
+                  srcset="
+                    ./images/portfolio-3.jpg    1x,
+                    ./images/portfolio-3-2x.jpg 2x
+                  "
                   alt="Meditation application interface"
                   width="360"
                 />
@@ -393,7 +429,10 @@
               <div class="portfolio-image-box">
                 <img
                   src="./images/portfolio-4.jpg"
-                  srcset="./images/portfolio-4.jpg 1x, ./images/portfolio-4-2x.jpg 2x"
+                  srcset="
+                    ./images/portfolio-4.jpg    1x,
+                    ./images/portfolio-4-2x.jpg 2x
+                  "
                   alt="Taxi service application"
                   width="360"
                 />
@@ -412,7 +451,10 @@
               <div class="portfolio-image-box">
                 <img
                   src="./images/portfolio-5.jpg"
-                  srcset="./images/portfolio-5.jpg 1x, ./images/portfolio-5-2x.jpg 2x"
+                  srcset="
+                    ./images/portfolio-5.jpg    1x,
+                    ./images/portfolio-5-2x.jpg 2x
+                  "
                   alt="Mobile screen illustrations"
                   width="360"
                 />
@@ -431,7 +473,10 @@
               <div class="portfolio-image-box">
                 <img
                   src="./images/portfolio-6.jpg"
-                  srcset="./images/portfolio-6.jpg 1x, ./images/portfolio-6-2x.jpg 2x"
+                  srcset="
+                    ./images/portfolio-6.jpg    1x,
+                    ./images/portfolio-6-2x.jpg 2x
+                  "
                   alt="Online courses application"
                   width="360"
                 />
@@ -518,28 +563,66 @@
       </div>
     </footer>
     <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
-      <button class="mobile-menu-close" type="button" aria-label="Close menu">
-        <svg width="8" height="8" aria-hidden="true">
-          <use href="./images/icons.svg#icon-modal-close"></use>
-        </svg>
-      </button>
-      <nav class="mobile-nav" aria-label="Mobile navigation">
-        <ul class="mobile-nav-list">
-          <li><a class="mobile-nav-link current" href="#features">Features</a></li>
-          <li><a class="mobile-nav-link" href="#team">Team</a></li>
-          <li><a class="mobile-nav-link" href="#portfolio">Portfolio</a></li>
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-close" type="button" aria-label="Close menu">
+          <svg width="8" height="8" aria-hidden="true">
+            <use href="./images/icons.svg#icon-modal-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+          <ul class="mobile-nav-list">
+            <li>
+              <a class="mobile-nav-link current" href="#features">Features</a>
+            </li>
+            <li><a class="mobile-nav-link" href="#team">Team</a></li>
+            <li><a class="mobile-nav-link" href="#portfolio">Portfolio</a></li>
+          </ul>
+        </nav>
+        <address class="mobile-contacts">
+          <ul class="mobile-contacts-list">
+            <li>
+              <a class="mobile-contact-link phone" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a class="mobile-contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-social-list social-list">
+          <li>
+            <a class="social-link" href="#" aria-label="Instagram">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="social-link" href="#" aria-label="Twitter">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="social-link" href="#" aria-label="Facebook">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="social-link" href="#" aria-label="LinkedIn">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
-      </nav>
-      <address class="mobile-contacts">
-        <a class="mobile-contact-link phone" href="tel:+110001111111">+11 (000) 111-11-11</a>
-        <a class="mobile-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </address>
-      <ul class="mobile-social-list social-list">
-        <li><a class="social-link" href="#" aria-label="Instagram"><svg class="social-icon" width="24" height="24"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-        <li><a class="social-link" href="#" aria-label="Twitter"><svg class="social-icon" width="24" height="24"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-        <li><a class="social-link" href="#" aria-label="Facebook"><svg class="social-icon" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-        <li><a class="social-link" href="#" aria-label="LinkedIn"><svg class="social-icon" width="24" height="24"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
-      </ul>
+      </div>
     </div>
     <div class="backdrop" id="modal" aria-hidden="true">
       <div

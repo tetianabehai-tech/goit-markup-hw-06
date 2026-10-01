@@ -24,8 +24,9 @@
 
 .modal {
   position: relative;
-  width: min(100%, 408px);
-  padding: 72px 24px 24px;
+  width: min(100%, 288px);
+  min-width: 0;
+  padding: 72px 16px 24px;
   border-radius: 4px;
   background-color: #fcfcfc;
   box-shadow:
@@ -254,4 +255,21 @@
 .form-submit:focus {
   background-color: #404bbf;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: min(100%, 408px);
+    padding: 72px 24px 24px;
+  }
+}
+
+@media (max-height: 650px) {
+  .backdrop {
+    align-items: flex-start;
+  }
+
+  .modal {
+    margin: auto;
+  }
 }

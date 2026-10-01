@@ -29,13 +29,13 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1158px;
+  max-width: 320px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .sr-only {
@@ -52,13 +52,36 @@ img {
 }
 
 .section-title {
-  margin-bottom: 72px;
+  margin-bottom: 40px;
   color: #2e2f42;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 16px;
+  }
+
+  .section-title {
+    margin-bottom: 72px;
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+
+  .section {
+    padding: 120px 0;
+  }
 }
 
 .logo {
