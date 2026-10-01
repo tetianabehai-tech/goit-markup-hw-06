@@ -1,0 +1,38 @@
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.feature-icon-box {
+  display: flex;
+  height: 112px;
+  margin-bottom: 8px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  color: #2e2f42;
+  background-color: #f4f4fd;
+}
+
+.feature-icon {
+  color: inherit;
+}
+
+.feature-title {
+  margin-bottom: 8px;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.feature-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
