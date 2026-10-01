@@ -102,10 +102,3 @@
   gap: 40px;
   margin-top: 48px;
 }
-
-@media (min-width: 428px) {
-  .mobile-menu {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
